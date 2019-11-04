@@ -10,10 +10,9 @@ Caso não possua nem spark nem Jupyter notebook instalados, basta seguir:
 ## Brew:
 Clonar o Brew: 
 ```sh
-git clone https://github.com/Linuxbrew/brew.git <br> 
-```
-<br> 
-Adicionar brew para o PATH:<br> 
+$ git clone https://github.com/Linuxbrew/brew.git  
+``` 
+Adicionar brew para o $PATH: 
 ```sh
 echo "export PATH='$(brew --prefix)/bin:$(brew --prefix)/sbin'":'"$PATH"' >>~/.profile
 ```
