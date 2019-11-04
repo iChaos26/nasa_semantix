@@ -1,14 +1,19 @@
 # Teste - SEMANTIX - HTTP requests to the NASA Kennedy Space Center WWW server
-Estudo voltado para as requests feitas para o Space Center\
+Análise voltada para as requests feitas para o Space Center <br>
 Fonte oficial do dateset: http://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html
 
 
-# REQUIREMENTS:
-Ter um ambiente linuxbrew (no caso o usado fora o Ubuntu 18.04 com um gerenciador de pacotes apache brew), com pyspark setado\ para Jupyter notebook. Caso não possua nem spark nem Jupyter notebook instalados, basta seguir:
+# Requeriments:
+Ter um ambiente linuxbrew (no caso o usado fora o Ubuntu 18.04 com um gerenciador de pacotes apache brew), com pyspark setado para Jupyter notebook. <br> 
+Caso não possua nem spark nem Jupyter notebook instalados, basta seguir:
 
 ## Brew:
-Clonar o Brew: git clone https://github.com/Linuxbrew/brew.git\
-Adicionar brew para o PATH:\
+Clonar o Brew: 
+```sh
+git clone https://github.com/Linuxbrew/brew.git <br> 
+```
+<br> 
+Adicionar brew para o PATH:<br> 
 ```sh
 echo "export PATH='$(brew --prefix)/bin:$(brew --prefix)/sbin'":'"$PATH"' >>~/.profile
 ```
