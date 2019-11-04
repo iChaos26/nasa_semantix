@@ -4,7 +4,7 @@ Fonte oficial do dateset: http://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html
 
 
 # REQUIREMENTS:
-Ter um ambiente linuxbrew (no caso o usado fora o Ubuntu 18.04 com um gerenciador de pacotes apache brew), com pyspark setado\ para Jupyter notebook. Caso nao possua nem spark nem Jupyter notebook instalados, basta seguir:
+Ter um ambiente linuxbrew (no caso o usado fora o Ubuntu 18.04 com um gerenciador de pacotes apache brew), com pyspark setado\ para Jupyter notebook. Caso não possua nem spark nem Jupyter notebook instalados, basta seguir:
 
 ## Brew:
 Clonar o Brew: git clone https://github.com/Linuxbrew/brew.git\
@@ -21,7 +21,7 @@ $ brew install hello
 ```sh
 $ sudo apt install scala default-jdk
 ```
-- Anaconda (nao e totalmente necessario, uma vez que pode-se instalar apenas o Jupyter notebook):
+- Anaconda (não e totalmente necessário, uma vez que pode-se instalar apenas o Jupyter notebook):
 ```sh
 -> wget https://repo.anaconda.com/archive/Anaconda3-5.3.0-Linux-x86_64.sh
  bash Anaconda3-5.3.0-Linux-x86_64.sh
